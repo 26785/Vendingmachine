@@ -39,7 +39,38 @@ public class vendingmachine {
                 System.out.println("please choose one of the drinks");
                 choice = scanner.nextInt();
             }
-            
+
+            switch(choice){
+                case 1:
+                    System.out.println("That will be 90 cents please.");
+                    output.add("cola");
+                case 2:
+                    System.out.println("That will be 90 cents please.");
+                    output.add("sprite");
+                case 3:
+                    System.out.println("That will be 90 cents please.");
+                    output.add("fanta");
+                case 4:
+                    System.out.println("That will be 90 cents please.");
+                    output.add("drpepper");
+                case 5:
+                    System.out.println("That will be 90 cents please.");
+                    output.add("icetea");
+            }
+
+            System.out.println("Enter your amount in cents");
+            money = scanner.nextInt();
+
+            if (money > 200){
+                System.out.println("Please a little less");
+                money = scanner.nextInt();
+            }
+
+            else if(money < 90){
+                System.out.println("I'm afraid you'll need a little more");
+                money = scanner.nextInt();
+            }
+
         }
     }
 
