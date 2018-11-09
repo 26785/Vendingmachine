@@ -81,26 +81,141 @@ public class vendingmachine {
                     System.out.println("Congrats you've chosen for cola");
                     amount = money - cola;
                     System.out.println("Your change is: " + amount + " cent");
+                    System.out.println(" o           o \n" +
+                            "                      o   o    \n" +
+                            "                         o         o\n" +
+                            "\n" +
+                            "                     o       o  o \n" +
+                            "                  ________._____________\n" +
+                            "                  |   .                |\n" +
+                            "                  |^^^.^^^^^.^^^^^^.^^^|\n" +
+                            "                  |     .   .   .      |\n" +
+                            "                   \\      . . . .     /\n" +
+                            "C H E E R S !!!      \\     .  .     / \n" +
+                            "                       \\    ..    / \n" +
+                            "                         \\      /\n" +
+                            "                           \\  /\n" +
+                            "                            \\/\n" +
+                            "                            ||\n" +
+                            "                            ||\n" +
+                            "                            ||\n" +
+                            "                            ||\n" +
+                            "                            ||\n" +
+                            "                            /\\\n" +
+                            "                           /;;\\\n" +
+                            "                      ==============");
                     break;
                 case 2:
                     System.out.println("Congrats you've chosen for sprite");
                     amount = money - sprite;
                     System.out.println("Your change is: " + amount + " cent");
+                    System.out.println(" o           o \n" +
+                            "                      o   o    \n" +
+                            "                         o         o\n" +
+                            "\n" +
+                            "                     o       o  o \n" +
+                            "                  ________._____________\n" +
+                            "                  |   .                |\n" +
+                            "                  |^^^.^^^^^.^^^^^^.^^^|\n" +
+                            "                  |     .   .   .      |\n" +
+                            "                   \\      . . . .     /\n" +
+                            "C H E E R S !!!      \\     .  .     / \n" +
+                            "                       \\    ..    / \n" +
+                            "                         \\      /\n" +
+                            "                           \\  /\n" +
+                            "                            \\/\n" +
+                            "                            ||\n" +
+                            "                            ||\n" +
+                            "                            ||\n" +
+                            "                            ||\n" +
+                            "                            ||\n" +
+                            "                            /\\\n" +
+                            "                           /;;\\\n" +
+                            "                      ==============");
                     break;
                 case 3:
                     System.out.println("Congrats you've chosen for fanta");
                     amount = money - fanta;
                     System.out.println("Your change is: " + amount + " cent");
+                    System.out.println(" o           o \n" +
+                            "                      o   o    \n" +
+                            "                         o         o\n" +
+                            "\n" +
+                            "                     o       o  o \n" +
+                            "                  ________._____________\n" +
+                            "                  |   .                |\n" +
+                            "                  |^^^.^^^^^.^^^^^^.^^^|\n" +
+                            "                  |     .   .   .      |\n" +
+                            "                   \\      . . . .     /\n" +
+                            "C H E E R S !!!      \\     .  .     / \n" +
+                            "                       \\    ..    / \n" +
+                            "                         \\      /\n" +
+                            "                           \\  /\n" +
+                            "                            \\/\n" +
+                            "                            ||\n" +
+                            "                            ||\n" +
+                            "                            ||\n" +
+                            "                            ||\n" +
+                            "                            ||\n" +
+                            "                            /\\\n" +
+                            "                           /;;\\\n" +
+                            "                      ==============");
                     break;
                 case 4:
                     System.out.println("Congrats you've chosen for drpepper");
                     amount = money - drpepper;
                     System.out.println("Your change is: " + amount + " cent");
+                    System.out.println(" o           o \n" +
+                            "                      o   o    \n" +
+                            "                         o         o\n" +
+                            "\n" +
+                            "                     o       o  o \n" +
+                            "                  ________._____________\n" +
+                            "                  |   .                |\n" +
+                            "                  |^^^.^^^^^.^^^^^^.^^^|\n" +
+                            "                  |     .   .   .      |\n" +
+                            "                   \\      . . . .     /\n" +
+                            "C H E E R S !!!      \\     .  .     / \n" +
+                            "                       \\    ..    / \n" +
+                            "                         \\      /\n" +
+                            "                           \\  /\n" +
+                            "                            \\/\n" +
+                            "                            ||\n" +
+                            "                            ||\n" +
+                            "                            ||\n" +
+                            "                            ||\n" +
+                            "                            ||\n" +
+                            "                            /\\\n" +
+                            "                           /;;\\\n" +
+                            "                      ==============");
                     break;
                 case 5:
                     System.out.println("Congrats you've chosen for icetea");
                     amount = money - icetea;
                     System.out.println("Your change is: " + amount + " cent");
+                    System.out.println(" o           o \n" +
+                            "                      o   o    \n" +
+                            "                         o         o\n" +
+                            "\n" +
+                            "                     o       o  o \n" +
+                            "                  ________._____________\n" +
+                            "                  |   .                |\n" +
+                            "                  |^^^.^^^^^.^^^^^^.^^^|\n" +
+                            "                  |     .   .   .      |\n" +
+                            "                   \\      . . . .     /\n" +
+                            "C H E E R S !!!      \\     .  .     / \n" +
+                            "                       \\    ..    / \n" +
+                            "                         \\      /\n" +
+                            "                           \\  /\n" +
+                            "                            \\/\n" +
+                            "                            ||\n" +
+                            "                            ||\n" +
+                            "                            ||\n" +
+                            "                            ||\n" +
+                            "                            ||\n" +
+                            "                            /\\\n" +
+                            "                           /;;\\\n" +
+                            "                      ==============");
                     break;
             }
 
