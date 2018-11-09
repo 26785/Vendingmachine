@@ -44,18 +44,23 @@ public class vendingmachine {
                 case 1:
                     System.out.println("That will be 90 cents please.");
                     output.add("cola");
+                    break;
                 case 2:
                     System.out.println("That will be 90 cents please.");
                     output.add("sprite");
+                    break;
                 case 3:
                     System.out.println("That will be 90 cents please.");
                     output.add("fanta");
+                    break;
                 case 4:
                     System.out.println("That will be 90 cents please.");
                     output.add("drpepper");
+                    break;
                 case 5:
                     System.out.println("That will be 90 cents please.");
                     output.add("icetea");
+                    break;
             }
 
             System.out.println("Enter your amount in cents");
@@ -71,7 +76,38 @@ public class vendingmachine {
                 money = scanner.nextInt();
             }
 
+            switch(choice){
+                case 1:
+                    System.out.println("Congrats you've chosen for cola");
+                    amount = money - cola;
+                    System.out.println("Your change is: " + amount + " cent");
+                    break;
+                case 2:
+                    System.out.println("Congrats you've chosen for sprite");
+                    amount = money - sprite;
+                    System.out.println("Your change is: " + amount + " cent");
+                    break;
+                case 3:
+                    System.out.println("Congrats you've chosen for fanta");
+                    amount = money - fanta;
+                    System.out.println("Your change is: " + amount + " cent");
+                    break;
+                case 4:
+                    System.out.println("Congrats you've chosen for drpepper");
+                    amount = money - drpepper;
+                    System.out.println("Your change is: " + amount + " cent");
+                    break;
+                case 5:
+                    System.out.println("Congrats you've chosen for icetea");
+                    amount = money - icetea;
+                    System.out.println("Your change is: " + amount + " cent");
+                    break;
+            }
+
+            user = user - (money-amount);
         }
+        System.out.println("I'm afraid you don't have enough money mate.");
+        System.out.println("you have bought: " + output);
     }
 
 }
