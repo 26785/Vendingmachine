@@ -22,7 +22,25 @@ public class vendingmachine {
         drankjes.add("icetea");
 
         ArrayList<String> output = new ArrayList<String>();
-        
+
+        System.out.println("Hello, we have a selection of the following drinks: ");
+        System.out.println(drankjes);
+
+        while(user > 90){
+            System.out.println("what would you like?");
+            choice = scanner.nextInt();
+
+            if (choice < 1){
+                System.out.println("please choose one of the drinks");
+                choice = scanner.nextInt();
+            }
+
+            else if(choice > 5){
+                System.out.println("please choose one of the drinks");
+                choice = scanner.nextInt();
+            }
+            
+        }
     }
 
 }
